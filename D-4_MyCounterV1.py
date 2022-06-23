@@ -28,7 +28,7 @@ class MyCounterV1:
         self.value = value
 
     def count_up(self):
-        self.value = self.value + 1
+        self.value += 1
         return
 
 

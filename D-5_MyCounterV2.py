@@ -27,12 +27,7 @@ class MyCounterV2:
         self.step = step
 
     def count_up(self):
-        i = 0
-        if i == 0:
-            value = self.value + 1
-            self.value = value * self.step
-
-        return
+        self.value += self.step
 
 
 if __name__ == "__main__":
